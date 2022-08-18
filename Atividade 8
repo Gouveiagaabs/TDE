@@ -1,0 +1,7 @@
+altura = float(input("Digite a altura do cilindro aqui: "))
+raio = float(input("Digite o raio do cilindro aqui: "))
+areaTotal = (2*3.14*raio*altura) + (2*3.14*(raio*raio))
+quantLitros = areaTotal/3
+quantLatas = quantLitros/5
+valorTotal = quantLatas*50
+print("Você precisará de " + str(quantLatas) + " latas para pintar o tanque cilíndrico. O valor total é de R$ " + str(valorTotal) + " reais.")
