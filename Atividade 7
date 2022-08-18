@@ -1,0 +1,6 @@
+hora = int(input("Digite a hora atual: "))
+minuto = int(input("Digite os minutos atuais: "))
+segundos = int(input("Digite os segundos atuais: "))
+valorMinuto = (segundos/60) + minuto + (hora*60)
+valorSegundos = segundos + (minuto*60) + ((hora*60)*60)
+print("Desde o início do dia se passaram " + str(valorSegundos) + " segundos e " + str(valorMinuto) + " minutos.")
