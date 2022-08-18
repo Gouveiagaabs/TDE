@@ -1,0 +1,8 @@
+valor = int(input("Digite o valor do produto aqui:"))
+valorParcelajuros = (valor*105)/100
+valorParcelajurosunitaria = valorParcelajuros/3
+valorSemjuros = valor/2
+valorDesconto = (valor*95)/100
+print("Se este valor for dividido em três parcelas, ele sofrará um acréscimo total de 5% de juros, ficando num resultado final de R$ " + str(valorParcelajuros) + " reais. Sendo que cada parcela tem o valor unitário de R$ " + str(valorParcelajurosunitaria) + " reais.")
+print("Enquanto isso, se for dividido em duas parcelas sem juros, cada parcela terá o valor de R$ " + str(valorSemjuros) + " reais.")
+print("Caso pague a vista, ele sofrerá um desconto de 5%, com valor final de R$ " + str(valorDesconto) + " reais.")
