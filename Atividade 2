@@ -1,0 +1,4 @@
+anoNascimento = int(input("Digite seu ano de nascimento aqui: "))
+anoAtual = 2032
+idade = anoAtual - anoNascimento
+print("Sua idade em 2032 será de " + str(idade) + " anos")
