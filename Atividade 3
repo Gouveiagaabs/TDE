@@ -1,0 +1,5 @@
+salarioFunc = int(input("Digite seu salário aqui:"))
+salarioMin = 1212
+salMin = salarioFunc/salarioMin
+if salMin <= 1:  print("Você recebe " + str(salMin) + " salário mínimo.")
+else:   print("Você recebe " + str(salMin) + " salários mínimos.")
