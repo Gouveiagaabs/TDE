@@ -1,0 +1,5 @@
+import math
+catetoUm = float(input("Digite aqui o valor do cateto adjacente: "))
+catetoDois = float(input("Digite aqui o valor do cateto oposto: "))
+hipotenusa = math.sqrt((catetoDois ** 2) + (catetoUm ** 2))
+print("O valor da hipotenusa é: " + str(hipotenusa))
